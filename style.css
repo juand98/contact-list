@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Fraunces", serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(200, 200, 200, 0.9);
+}
+
+.container {
+  height: 100vh;
+  width: 70vw;
+  margin: 2rem auto;
+}
+.container h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.formulario-datos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1rem auto;
+}
+.formulario-datos input {
+  margin: 1rem 0rem;
+  line-height: 3rem;
+  background: none;
+  outline: 0;
+  border: 0;
+  color: white;
+}
+.formulario-datos input:focus {
+  border-bottom: 0.1rem solid dodgerblue;
+}
+.formulario-datos button {
+  height: 3rem;
+  margin: 1rem 0rem;
+  background-color: dodgerblue;
+  border: 0;
+  outline: 0;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* Para la sección de tareas dinámica usaremos un display flex en horizontal para ordenar la lista de contactos según vayamos agregando. */
+
+.lista-contactos {
+  display: flex;
+  flex-direction: column;
+}
+.lista-contactos .contacto {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-between;
+  height: 4rem;
+}
+.icono {
+  color: tomato;
+  cursor: pointer;
+}

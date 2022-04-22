@@ -18,10 +18,50 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;500;700&family=Roboto:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Contac List</title>
   </head>
-  <body></body>
+  <!--Este proyecto es directamente para aprender JavaScript, por lo naterior, no se usará HTML5 semántico, ni se profundizará en especificar HTML o CSS-->
+  <body>
+    <div class="container">
+      <!--Header-->
+      <h2>Lista de Contactos</h2>
+      <!--Formulario de datos-->
+      <div class="formulario-datos">
+        <input
+          type="text"
+          class="nombre"
+          placeholder="Ingrese nombre y apellido"
+        />
+        <input type="text" class="telefono" placeholder="Número de teléfono" />
+        <input type="text" class="direccion" placeholder="Dirección" />
+        <button class="btn-agregar">Agregar contacto</button>
+        <!--Lista de contactos desplagada una vez se agregue el contacto-->
+        <!--Esta sección será dinámica, es decir, cuando el usuario presiona el boton "Agregar contacto", esta sección se agregará dinámicamente-->
+        <div class="lista-contactos">
+          <div class="contacto">
+            <h3>Nombre</h3>
+            <p>Número</p>
+            <p>Dirección</p>
+            <!--Icono: en google fonts, vamos a "Developer Guide" y copiamos el código html de allí. Una vez linkeado nuestros iconos, buscamos el icono que queremos agregar a nuestro proyecto, en este caso "delete", seleccionamos la etiqueta span y eliminamos el valor "outlined" -->
+            <span class="material-icons icono"> delete_forever </span>
+          </div>
+          <div class="contacto">
+            <h3>Nombre</h3>
+            <p>Número</p>
+            <p>Dirección</p>
+            <span class="material-icons icono"> delete_forever </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js" type="text/javascript"></script>
+    <script src="./funciones.js" type="text/javascript"></script>
+  </body>
   <script src="./main.js" type="text/javascript"></script>
   <script src="./funciones.js" type="text/javascript"></script>
 </html>
