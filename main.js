@@ -30,4 +30,10 @@ btnAgregarContacto.onclick = () => {
   //COMPROBAR EN CONSOLA NUESTRO OBJETO (Descomentar el console.log)
   //console.log(contacto);
   // Para ensayar, vamos a devtools, completamos el formulario y apretamos el botón de agregar contacto. En consola veremos nuestro objeto creado con los datos ingresados en el formulario
+
+  // Ahora para guardar cada contacto que se agrega al momento de presionar el botón, en el LocalStorage, crearemos una función en el archivo de funciones la cual guarda nuestro contacto directamente en el LocalStorage de nuestro navegador. Hecho esto finalmente mandamos a llamar la función.
+
+  guardarContacto(local, contacto);
+
+  // Esta función recibe dos parámetros, el primero es la base de datos donde se guardará la información, en este caso el LocalStorage y el segundo que es la información como tal que se guardara allí, el objeto "contacto".
 };
