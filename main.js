@@ -37,3 +37,7 @@ btnAgregarContacto.onclick = () => {
 
   // Esta función recibe dos parámetros, el primero es la base de datos donde se guardará la información, en este caso el LocalStorage y el segundo que es la información como tal que se guardara allí, el objeto "contacto".
 };
+
+// una vez presionado el botón para agregar contactos ejecutamos la función para que se carguen los contactos y se muestren en pantalla
+
+cargarContacto(local);
