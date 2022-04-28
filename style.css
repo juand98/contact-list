@@ -52,8 +52,12 @@ body {
   border-radius: 0.5rem;
   text-transform: uppercase;
   color: white;
+  cursor: pointer;
 }
 
+.formulario-datos button:active {
+  background-color: aquamarine;
+}
 /* Para la sección de tareas dinámica usaremos un display flex en horizontal para ordenar la lista de contactos según vayamos agregando. */
 
 .lista-contactos {

@@ -6,7 +6,6 @@ Crea una lista de contactos con datos predefinidos, cada contacto debe contener 
 Crea una función para añadir un nuevo contacto a una lista
 Crea una función para borrar un contacto existente de la lista
 Crea una función para imprimir en consola los contactos presentes en la lista
-Publica tu código en Github, en tu repositorio contact-list crea un branch llamado project-1 y compártelo con nosotros. 👍🏼⬇️
 
 Ajusta las funciones de crear y eliminar un contacto para que puedan almacenar la siguiente información como objetos:
 id
@@ -16,4 +15,3 @@ teléfono
 ubicaciones
 ciudad
 dirección
-Publica tu código en Github, en tu repositorio contact-list crea un branch llamado project-2 y compártelo con nosotros. 👍🏼⬇️
