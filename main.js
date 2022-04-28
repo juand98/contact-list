@@ -40,4 +40,5 @@ btnAgregarContacto.onclick = () => {
 
 // una vez presionado el botón para agregar contactos ejecutamos la función para que se carguen los contactos y se muestren en pantalla
 
-cargarContacto(local);
+cargarContacto(local, listadoContactos);
+// El listado de contactos, nombrado en html como class="lista-contactos" tendrá los div que van a tnere todos los datos del objeto que recuperamos del localStorage.
